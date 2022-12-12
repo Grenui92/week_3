@@ -1,0 +1,12 @@
+Commands:
+"create_note X Y" - create new Note with name(X) and information(Y). You can use # to add hashtags
+"add_note X Y" - add new information(Y) to Note named(X). You can use # to add hashtags
+"clear_note X" - clear Note named(X) all information
+"clear_tags X" - Clear Note named(X) tags
+"clear_text X" - Clear Note named(X) text
+"del_one_note X" - FUll delete Note named(X)
+"search_in_text X" - Search information(X) in all Notes text
+"search_in_tags X" - Search information(X) in all Notes tags
+"sort_by_tags X" - sort all Notes by tags(X). You can use tags list like a "#tag1 #tag2 #tag3"
+"show_note X" - Show Note with name(X)
+"show_note_book" - Show all Notes from NoteBook

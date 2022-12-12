@@ -1,0 +1,19 @@
+Commands:
+"create X" - Create new contact with name X
+"add_phone X Y" - Add new phone number(Y) to contact(X)
+"add_email X Y" - Add new email(Y) to contact(X)
+"add_address X Y" - Add new address(Y) to contact(X)
+"edit_contact X F A B" - change information in contact field(f) from old(A) to new(B) in contact(X)
+    Fields:
+        phones - contain phone numbers
+        emails - contain emails
+        address - contain address
+    If you want to change birthday date - use command "set_birthday". It will replace date.
+"search X" - Search contact(X) in ContactBook
+"search_info X" - Search in all information(X)
+"set_birthday X Y" - Set birthday date(Y) to contact(X)
+"show_birthday N" - Show the nearest birthdays of all contact amount N days. You can not enter N. It will be default N = 7
+"days_to X" - Show days to birthday contact(X)
+"birthday_for_all" - Show days to birthday for all contacts
+"show" - Show all contacts in ContactBook
+"clear_book" - Delete all information from ContactBook
